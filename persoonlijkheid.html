@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.-">
+    <title>CV Stefan Boon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+
+
+<body>
+    <section class="headersub">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="persoonlijkheid.html">PERSOONLIJKHEID</a></li>
+                    <li><a href="opleidingen.html">OPLEIDINGEN</a></li>
+                    <li><a href="werkarving.html">WERKERVARING</a></li>
+                    <li><a href="hobbies.html">NEVENACTIVITEITEN & INTERESSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box-sub">
+            <!-----  <a href="index.html"><img align="left" class="logo" src="images/logo2.png"></a> -->
+              <a href="index.html"><img style="transform:rotate(32deg); border-radius: 50%;" width="200" align="middle" src="images/pff.jpg"></a>
+              <h1>Persoonlijkheid</h1>
+            </div>
+  
+
+    </section>
+
+
+
+
+    <!-------- Persoonlijkheid   -->
+
+    <section class="pers">
+        <h1>Eigenschappen</h1>
+       <!----- <p>Tekst over mij</p>   --> 
+        <div class="row">
+            <div class="pers-col">
+                <h3>Oplossingsgericht</h3>
+                <p>
+                    Wanneer er problemen op mijn pad komen kom ik altijd met ideeën om deze op te lossen. 
+                    Ook denk ik altijd mee over het verbeteren van processen en bedrijfs-systemen.
+                </p>
+            </div>
+            <div class="pers-col">
+                <h3>Leergierig</h3>
+                <p>
+                    Omdat ik zo leergierig ben pik ik nieuwe stof snel op. Als ik materie interessant vind verdiep ik mijzelf hier in 
+                    en wil ik zoveel mogelijk erover weten.
+                </p>
+            </div>
+            <div class="pers-col">
+                <h3>Vriendelijk</h3>
+                <p>
+                    Samenwerken is één van mijn sterke kanten. Ik vind het belangrijk om in een team te werken waarbij de samenwerking 
+                    goed verloopt en dat we altijd eerlijk tegen elkaar kunnen zijn.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-------- Footer -------->
+ <section class="footer">
+     
+    <section class="contact2" style="background: none; padding-top: 20px;">
+        <h1 style="font-size: 20px;"><b>Contact</b></h1> 
+    </section>
+      
+    <section class="contact2" style="background: none; padding-bottom: 20px;">
+        <p><img  width="20" src="images/mail_icom.png">  &nbsp; E-mailadres: Stefan-boon@hotmail.com</p> &nbsp;  &nbsp; 
+        <p><img  width="18" src="images/phone_icon_white.png"> &nbsp; Mobiel: 06-19752891</p>
+    </section>
+    
+    </section>
+    <!-------- JavaScript for Toggle Menu -------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200";
+        }
+
+    </script>
+
+
+
+</body>
+</html>
