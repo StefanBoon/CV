@@ -7,11 +7,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+
     <section class="header">
+
+
+
+<!---        test       -->
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="persoonlijkheid.html">PERSOONLIJKHEID</a>
+    <a href="opleidingen.html">OPLEIDINGEN</a>
+    <a href="werkarving.html">WERKERVARING</a>
+    <a href="hobbies.html">NEVENACTIVITEITEN & INTERESSES</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+  <div class="openButton">
+
+    <span style="font-size:40px;cursor:pointer; color: white;" onclick="openNav()">&#9776; </span>
+  </div>
+  
+  
+  <script>
+  function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";   
+     }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0px";
+    }
+  </script>
+
+
+
+
+
+
+<!---        test end      -->
+
+
+
+
+
+
+
         <nav>
                 <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -34,10 +81,10 @@
             <a href="index.html"><img style="transform:rotate(32deg); border-radius: 50%;" width="200" align="middle" src="images/pff.jpg"></a>
             <h1>Curriculum Vitae Stefan Boon</h1>
             <p>
-                Bedankt voor het bekijken van mijn CV!<br> <br>Middels deze webpagina kunt u meer te weten over mijn<br>
+                Bedankt voor het bekijken van mijn CV!<br> <br>Middels deze webpagina kunt u meer te weten komen over mijn 
                 opleidingen, ervaringen en karakter.
             </p>
-            <a href="contact.html" class="hero-btn">Contact gegevens</a>
+            <a href="contact.html" class="contact-btn">Contact gegevens</a>
         </div>
 
 
@@ -50,7 +97,6 @@
 
     <section class="pers">
         <h1>Persoonlijkheid</h1>
-       <!----- <p>Tekst over mij</p>   --> 
         <div class="row">
             <div class="pers-col">
                 <h3>Oplossingsgericht</h3>
@@ -82,7 +128,7 @@
 
     <section class="opl">
 
-        <h1 style="text-align: center;">Diploma's</h1>
+        <h1 style="text-align: center;">Opleidingen</h1>
     
 <div style="text-align: center;">
     <div style="display: inline-block; text-align: left;">
@@ -90,15 +136,15 @@
         <br> <br>
         <li><b>Bachelor Biologie en Medisch Laboratorium Onderzoek (Life Sciences)</b><br><br><i> 
             &nbsp; &nbsp; &nbsp; Hogeschool Utrecht - 2016-2020</i> <br><br>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; 
              <b>Specalisatie:</b> Biomolecular Research<br><br>
-             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+             &nbsp; &nbsp; &nbsp; 
              <b>Minor:</b> Data analysis using 'R'. Eindopracht cijfer: 10</li>
             
         <li><b>HAVO</b><br><br><i>&nbsp; &nbsp; &nbsp;Daltonschool Helen Parkhurst, te Almere - 2008-2014</i>
-            <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <br><br> &nbsp; &nbsp; &nbsp; 
             <b>Richting:</b> Natuur & Techniek en Natuur & Gezondheid, Wiskunde B
-            <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <br><br> &nbsp; &nbsp; &nbsp; 
             Vervroegd eindexamen in Biologie in 2013
         </li>
     </section>
@@ -151,7 +197,7 @@
 <!-------- Hobbies   -->
  <section class="hob">
     <h1>Nevenactiviteiten & interesses</h1>
-    <div class="row">
+    <div class="rowHob">
         <div class="hob-col">
                 <img width="300" src="images/football.jpg">
                 <div class="layer">
@@ -204,7 +250,7 @@
 
 
 
-    <!-------- JavaScript for Toggle Menu -------->
+    <!-------- JavaScript for Toggle Menu ----
     <script>
 
         var navLinks = document.getElementById("navLinks");
@@ -216,7 +262,7 @@
             navLinks.style.right = "-200";
         }
 
-    </script>
+    </script>---->
 
 
 
