@@ -479,6 +479,12 @@ h3{
     color: #333333;
 }
 
+.contact4 h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
 .contact3 p{
     font-size: 18px;
     color: #333333;
@@ -494,8 +500,9 @@ h3{
 }
 @media(max-width: 750px){
     .contact4{display: block;}
-    .contact4 p{font-size: 3vw;}
-    .contact3 p{font-size: 3vw;}
+    .contact4 h1{margin-bottom: 1.5vh;}
+    .contact4 p{font-size: 3.5vw;}
+    .contact3 p{font-size: 3.5vw;}
     .contact2 p{font-size: 2.2vw;}
     .contact2{display: block; padding: 10px 0;}
 }
